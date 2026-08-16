@@ -1,0 +1,65 @@
+{
+  "image_width": 1920,
+  "image_height": 1080,
+  "pixel_points": {
+    "short_near_center": [
+      829,
+      706
+    ],
+    "short_near_left": [
+      214,
+      815
+    ],
+    "long_near_singles_r": [
+      1753,
+      743
+    ],
+    "short_far_center": [
+      571,
+      649
+    ],
+    "short_far_singles_l": [
+      223,
+      689
+    ],
+    "long_near_center": [
+      1505,
+      870
+    ],
+    "near_center": [
+      1800,
+      937
+    ]
+  },
+  "court_points_meters": {
+    "short_near_center": [
+      3.05,
+      4.72
+    ],
+    "short_near_left": [
+      0,
+      4.72
+    ],
+    "long_near_singles_r": [
+      5.64,
+      0.76
+    ],
+    "short_far_center": [
+      3.05,
+      8.68
+    ],
+    "short_far_singles_l": [
+      0.46,
+      8.68
+    ],
+    "long_near_center": [
+      3.05,
+      0.76
+    ],
+    "near_center": [
+      3.05,
+      0
+    ]
+  },
+  "num_points": 7
+}

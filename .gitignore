@@ -1,0 +1,9 @@
+*.mp4
+*.avi
+*.mov
+output/
+frame.jpg
+rally_*.jpg
+court_overlay.jpg
+__pycache__/
+*.pyc

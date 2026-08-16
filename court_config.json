@@ -1,0 +1,246 @@
+{
+  "video": "/home/ubuntu/vjepa2/prolens/phase0/IMG_3525.mp4",
+  "frame_size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "frame_idx_used": 100,
+  "homography_pixel_to_court": [
+    [
+      -0.0018395616849331453,
+      0.0012160325494505475,
+      -0.5784284624655648
+    ],
+    [
+      0.001591801707851064,
+      0.0015132207147765598,
+      -4.289382337787337
+    ],
+    [
+      -5.2833337636775825e-05,
+      -0.0019195737838657361,
+      1.0
+    ]
+  ],
+  "homography_court_to_pixel": [
+    [
+      1623.8878850938515,
+      33.46217960674523,
+      935.2338642192814
+    ],
+    [
+      347.78556675778634,
+      455.0914397831335,
+      2007.3924597603495
+    ],
+    [
+      0.7444813391368426,
+      0.8683309663591032,
+      1.0
+    ]
+  ],
+  "pixel_points": {
+    "short_near_center": [
+      829.0,
+      706.0
+    ],
+    "short_near_left": [
+      214.0,
+      815.0
+    ],
+    "long_near_singles_r": [
+      1753.0,
+      743.0
+    ],
+    "short_far_center": [
+      571.0,
+      649.0
+    ],
+    "short_far_singles_l": [
+      223.0,
+      689.0
+    ],
+    "long_near_center": [
+      1505.0,
+      870.0
+    ],
+    "near_center": [
+      1800.0,
+      937.0
+    ]
+  },
+  "court_dimensions": {
+    "length": 13.4,
+    "width_doubles": 6.1,
+    "width_singles": 5.18,
+    "singles_offset": 0.46,
+    "net": 6.7,
+    "short_svc_near": 4.72,
+    "short_svc_far": 8.68,
+    "long_svc_near": 0.76,
+    "long_svc_far": 12.64,
+    "center_x": 3.05
+  },
+  "service_boxes": {
+    "near_even": {
+      "description": "Near court, even (right side)",
+      "court_coords": [
+        [
+          3.05,
+          4.72
+        ],
+        [
+          6.1,
+          4.72
+        ],
+        [
+          6.1,
+          6.7
+        ],
+        [
+          3.05,
+          6.7
+        ]
+      ],
+      "pixel_coords": [
+        [
+          820,
+          707
+        ],
+        [
+          1140,
+          651
+        ],
+        [
+          974,
+          631
+        ],
+        [
+          672,
+          673
+        ]
+      ]
+    },
+    "near_odd": {
+      "description": "Near court, odd (left side)",
+      "court_coords": [
+        [
+          0,
+          4.72
+        ],
+        [
+          3.05,
+          4.72
+        ],
+        [
+          3.05,
+          6.7
+        ],
+        [
+          0,
+          6.7
+        ]
+      ],
+      "pixel_coords": [
+        [
+          214,
+          815
+        ],
+        [
+          820,
+          707
+        ],
+        [
+          672,
+          673
+        ],
+        [
+          170,
+          741
+        ]
+      ]
+    },
+    "far_even": {
+      "description": "Far court, even (left side from camera)",
+      "court_coords": [
+        [
+          0,
+          6.7
+        ],
+        [
+          3.05,
+          6.7
+        ],
+        [
+          3.05,
+          8.68
+        ],
+        [
+          0,
+          8.68
+        ]
+      ],
+      "pixel_coords": [
+        [
+          170,
+          741
+        ],
+        [
+          672,
+          673
+        ],
+        [
+          571,
+          649
+        ],
+        [
+          143,
+          697
+        ]
+      ]
+    },
+    "far_odd": {
+      "description": "Far court, odd (right side from camera)",
+      "court_coords": [
+        [
+          3.05,
+          6.7
+        ],
+        [
+          6.1,
+          6.7
+        ],
+        [
+          6.1,
+          8.68
+        ],
+        [
+          3.05,
+          8.68
+        ]
+      ],
+      "pixel_coords": [
+        [
+          672,
+          673
+        ],
+        [
+          974,
+          631
+        ],
+        [
+          851,
+          617
+        ],
+        [
+          571,
+          649
+        ]
+      ]
+    }
+  },
+  "files": {
+    "court_mask": "/home/ubuntu/vjepa2/prolens/phase0/court_mask.png",
+    "court_overlay": "/home/ubuntu/vjepa2/prolens/phase0/court_overlay.jpg"
+  }
+}
